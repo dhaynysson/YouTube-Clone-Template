@@ -31,7 +31,7 @@ p {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-width: 1px;
-    border-color: rgb(71, 71, 71);
+    border-color: rgb(71, 71, 71, 0.56);
     font-size: 15px;
     background-color: rgb(24, 23, 23);
 }
@@ -156,12 +156,10 @@ p {
 }
 
 .lupa:hover {
-    background-color: rgb(56, 54, 54);
+    
     cursor: pointer;
-
-
-
 }
+
 
 .search-bar:focus {
     border: 2px solid blue;
@@ -199,12 +197,6 @@ p {
 
 }
 
-.div-elements:hover {
-    background-color: rgba(51, 50, 50, 0.8);
-
-
-
-}
 
 .div-elements {
     padding: 5px 10px;
@@ -230,6 +222,11 @@ p {
     border: none;
     width: 60px;
     height: 32px;
-    background-color: rgb(66, 65, 65);
+    
     cursor: pointer;
+}
+.overflow:hover  {
+    overflow: visible;
+    overflow: auto;
+
 }
